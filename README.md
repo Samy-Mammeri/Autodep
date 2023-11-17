@@ -11,7 +11,8 @@ AutoDep is an innovative tool designed for seamless conversion of scripts into D
 To install the AutoDep package via apt, add the repository to your system's package sources:
 
   * Add a line to your `/etc/apt/sources.list`.
-  * Or, create a new `.list` file in `/etc/apt/sources.list.d/`.
+or 
+  *  create a new `.list` file in `/etc/apt/sources.list.d/`.
 
 Add the repository line:
 
