@@ -31,3 +31,15 @@ sudo apt-get install dpkg-dev debhelper devscripts
 
 # Build the Package with dpkg
 dpkg --build "$REP"
+
+# Set-up the APT repository
+dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
+
+# Ask the DEV for his Github repo LINK
+echo "Input your raw GitHub repository link (it should look like this : https://raw.githubusercontent.com/username/Repository-name/main/)"
+read Answer
+
+# Initiate the repository
+echo "deb [trusted=yes] $Answer /" | sudo tee -a /etc/apt/sources.list
+
+
