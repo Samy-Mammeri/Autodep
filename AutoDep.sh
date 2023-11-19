@@ -36,10 +36,10 @@ dpkg --build "$REP"
 dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
 
 # Ask the DEV for his Github repo LINK
-echo "Input your raw GitHub repository link (it should look like this : https://raw.githubusercontent.com/username/Repository-name/main/)"
+printf "Input your raw GitHub repository link \nit should look like this :\n https://raw.githubusercontent.com/username/Repository-name/main/)"
 read Answer
 
 # Initiate the repository
-echo "deb [trusted=yes] $Answer /" | sudo tee -a /etc/apt/sources.list
+echo "deb [trusted=yes] $Answer /" >> etc/apt/sources.list
 
 
