@@ -39,3 +39,5 @@ After installing AutoDep, you can use it to:
 ## Contributing
 
 Contributions are welcome to enhance AutoDep's functionality. Please submit issues and pull requests as needed.
+
+ps: aliases will be added soon
