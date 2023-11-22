@@ -47,8 +47,8 @@ For instance:
 ```bash
 auto
 ```
+This command initiates the AutoDep utility, allowing you to follow the prompts to create your Debian package and configure the repository.
 
-```bash
-auto
+### Contributing
 
-ps: aliases will be added soon
+Contributions are welcome to enhance AutoDep's functionality. Please submit issues and pull requests as needed.
