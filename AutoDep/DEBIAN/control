@@ -1,0 +1,13 @@
+Package: AutoDep
+
+Version: 1.0-0
+
+Section: utils
+
+Priority: optional
+
+Architecture: all
+
+Depends: bash (>= 4.0)
+
+Maintainer: Samy
