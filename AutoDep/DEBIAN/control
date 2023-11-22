@@ -1,13 +1,8 @@
 Package: AutoDep
-
 Version: 1.0-0
-
 Section: utils
-
 Priority: optional
-
 Architecture: all
-
 Depends: bash (>= 4.0)
-
-Maintainer: Samy
+Maintainer: Samy <samymammeri329@gmail.com>
+Description: everything explained in the Github README file
