@@ -46,3 +46,9 @@ For instance:
 
 ```bash
 auto
+```
+
+```bash
+auto
+
+ps: aliases will be added soon
