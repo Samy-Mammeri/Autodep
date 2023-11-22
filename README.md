@@ -10,11 +10,11 @@ AutoDep is an innovative tool designed for seamless conversion of scripts into D
 
 To install the AutoDep package via apt, add the repository to your system's package sources:
 
-  * Add a line to your `/etc/apt/sources.list`.
-    
-or 
+* Add a line to your `/etc/apt/sources.list`.
 
-  *  create a new `.list` file in `/etc/apt/sources.list.d/`.
+or
+
+* create a new `.list` file in `/etc/apt/sources.list.d/`.
 
 Add the repository line:
 
@@ -29,13 +29,20 @@ Once the repository is added, install AutoDep using:
     sudo apt update
     sudo apt install autodep
 
+## Post-Installation
+
+After installing AutoDep, the `postinst` script automatically creates an alias named `auto` for running the AutoDep tool. This alias is added to your `.bashrc` file.
+
+To start using this alias, you can either:
+
+* Restart your shell.
+* Run `source ~/.bashrc` to refresh your current shell session.
+
 ## Usage
 
-After installing AutoDep, you can use it to:
+With the `auto` alias set up, you can easily use AutoDep to convert scripts into Debian packages and set up apt repositories. Simply use the `auto` command in your terminal to run AutoDep.
 
-  * Convert scripts to Debian package format.
-  * Set up an apt repository for distributing your packages.
+For instance:
 
-## Contributing
-
-Contributions are welcome to enhance AutoDep's functionality. Please submit issues and pull requests as needed.
+```bash
+auto
