@@ -40,6 +40,6 @@ printf "Input your raw GitHub repository link \nit should look like this :\n htt
 read Answer
 
 # Initiate the repository
-echo "deb [trusted=yes] $Answer /" >> etc/apt/sources.list
+echo "deb [trusted=yes] $Answer ./" >> etc/apt/sources.list
 
 
