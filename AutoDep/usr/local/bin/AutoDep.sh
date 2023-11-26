@@ -7,8 +7,15 @@
 echo "The AutoDep utility is currently running in this Directory, Enter the name for your package:"
 read REP
 
+# Choosing the Script that you want to package
+printf "Name the package that you want to choose (it has to be in the current directory)\n include extension"
+read REP1
+
+# Moving the Chosen Script to it's New place in the package architecture
+mv $REP1 $REP/usr/local/bin
+
 # Create the base directory for the package
-mkdir $REP
+mkdir $REP 
 
 # Create the DEBIAN directory inside the package directory
 mkdir -p $REP/DEBIAN
