@@ -1,4 +1,4 @@
-# AutoDep (unfinished)
+# AutoDep
 
 ## Overview
 
