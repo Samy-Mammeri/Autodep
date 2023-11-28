@@ -8,7 +8,7 @@ echo "The AutoDep utility is currently running in this Directory, Enter the name
 read REP
 
 # Choosing the Script that you want to package
-printf "Name the package that you want to choose (it has to be in the current directory)\n include extension"
+printf "Name the script that you want to choose (it has to be in the current directory)\n include extension"
 read REP1
 
 # Moving the Chosen Script to it's New place in the package architecture
